@@ -4,6 +4,7 @@
 int main()
 {
 	Sales_item total;
+	std::cout << "Hello World" << std::endl;
 	if (std::cin >> total) {
 		Sales_item trans;
 		while (std::cin >> trans) {
